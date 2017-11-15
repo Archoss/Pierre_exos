@@ -1,0 +1,351 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 110px;
+	color: white;
+}
+h2{
+	letter-spacing: 12px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 15px;
+	color: #0077b3;
+}
+
+/* ############ HEADER ############### */
+.CS{
+	height: 23px;
+	width: auto;
+	box-shadow: 7px 5px 0px white;
+}
+.titrePremiers{
+	text-align: center;
+	padding: 95px 95px 55px 95px;
+}
+
+.titrePremiers p{
+	margin-top: 100px;
+	color: white;
+}
+
+.titrePremiers i{
+	font-size: 2em;
+	padding: 1%;
+	color: white;
+	border-radius: 60px;
+	width: 66px;
+	border: solid 1px white;
+	transition: all 0.5s;
+}
+
+.titrePremiers i:hover{
+	padding: 1%;
+	color: black;
+	border-radius: 80px;
+	border: solid 1px white;
+	background-color: white;
+}
+
+.titrePremier .fa-angle-down{
+	border-radius: 5px; 
+}
+
+.navbar ul{
+	margin-left:20%;
+}
+
+.navbar li{
+	margin-left:20px;
+}
+
+.navbar-inverse{
+	text-align: center;
+	font-weight: bold;
+	font-size: 19px;
+	height: 55px;
+
+	background-color: transparent;
+	border-left: none;
+	border-right: none; 
+	border-top: none; 
+
+}
+
+.navbar-inverse li:hover{
+	transition: all 0.5s;
+	border-bottom: 4px solid #0077b3; 
+}
+/* ############ HEADER ############### */
+
+/* ########### W ############### */
+.W{
+	padding: 100px;
+	background-image: url("../dossierProjet/img/background2.png");
+	background-size: cover;
+	background-position: center;
+}
+.W h2{
+	padding: 82px;
+	letter-spacing: 6px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 30px;
+	color: white;
+}
+.W h3{
+
+	font-size: 20px;
+}
+.feature{
+	padding: 55px;
+	text-align: center;
+}
+.W i{
+    padding: 60px;
+	background-color: #3c8bad;
+	border-radius: 200px;
+}
+/* ############## W ############## */
+
+.icon{
+	text-align: center;
+	font-size:5em;
+}
+
+.akitaImg {
+	width: 100%;
+}
+
+.col-md-6{
+	padding: 0;
+}
+
+.Akita{
+	height: auto;
+	text-align: left;
+	padding:  100px 100px 100px 200px;
+}
+
+/* ################# AKITA ################ */
+.blackCustom{
+	background-color: #252121;
+}
+.whiteCustom{
+	background-color: #e6e6e6;
+}
+.whiteCustom h4{
+	letter-spacing: 1px;
+	color: #252121;
+	font-size:1em; 
+}
+.whiteCustom h3{
+	font-size: 2.5em;
+	color: #252121;
+	font-weight: 450;
+	margin-bottom: 5%;
+}
+.whiteCustom p{
+	font-size: 1.5em;
+	color: #252121;
+}
+.blackCustom h4{
+	letter-spacing: 1px;
+	color: #e6e6e6;
+	font-size:1em; 
+}
+.blackCustom h3{
+	font-size: 2.5em;
+	color: #e6e6e6;
+	font-weight: 450;
+	margin-bottom: 5%;
+}
+.blackCustom p{
+	font-size: 1.5em;
+	color: #e6e6e6;
+}
+/* ################# AKITA ################ */
+
+
+.B{
+	padding: 90px;
+	background-image: url("../dossierProjet/img/background3.png");
+	background-size: cover;
+	background-position: center;
+}
+.B h2{
+	padding: 5%;
+	letter-spacing: 6px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 30px;
+	color: #252121;
+}
+.B h3{
+	color: #11749e;
+	font-size: 20px;
+}
+.B h4{
+	color: #252121;
+	font-size: 30px;
+}
+.B p{
+    padding: 0px 80px 0px 80px;
+	color: #252121;
+}
+.fresh{
+	padding: 5px;
+	text-align: center;
+}
+.B img{
+    padding: 10px;
+}
+.bandeauBleu{
+	width: 100%;
+    padding: 70px 30px 70px 300px;
+
+    background-color: #11749e;
+    background-size: cover;
+    background-position: center;
+}
+
+.iphoneBandeau{
+	padding: 100px 250px 100px 250px;
+	background-image: url("../dossierProjet/img/background4.png");
+	background-size: cover;
+}
+
+.blocText{
+	padding: 10% 0% 10% 0%;
+}
+
+.blocText h3,p:nth-of-type(1) {
+	text-align: left;
+	padding: 2% 40% 2% 2%;
+}
+
+.blueThings{
+	margin-left: 5px;
+}
+
+.blueThings{
+	text-align: left;
+	margin: 20px;
+	padding: 10px;
+	width: 300px;
+	background-color: #11749e;
+	transition: all 0.5s;
+}
+.blueThings:hover{
+	width: 400px;
+
+}
+
+
+.T{
+	padding: 270px;
+	background-image: url("../dossierProjet/img/background5.png");
+	background-size: cover;
+	background-position: center;
+}
+.T h2{
+	padding: 4%;
+    letter-spacing: 6px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #252121;
+}
+
+.legend{
+	position: absolute;
+	background-color: white;
+    top: 366px;
+    left: 107px;
+	width: 50%;
+	padding: 15px;
+	color: #11749e;
+	font-size: 20px;
+}
+
+.legend h3{
+	font-weight: bolder;
+}
+
+.legend h4{
+	font-weight: bolder;
+	color: black;
+}
+
+.T p{
+    padding: 0px 80px 0px 80px;
+	color: #252121;
+}
+.fresh{
+	padding: 5px;
+	text-align: center;
+}
+.T img{
+    padding: 10px;
+}
+
+.C{
+	padding: 180px;
+	background-image: url("../dossierProjet/img/background6.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.C h3{
+	padding: 5%;
+    letter-spacing: 6px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+}
+
+.C input{
+	border-radius: 0px;
+	margin: 40px 0 40px 0;
+	background-color: transparent;
+}
+
+.C textarea{
+	border-radius: 0px;
+	margin: 35px 0 35px 0;
+	background-color: transparent;
+}
+
+.C button{
+	background-color: #11749e;
+	border:none;
+	color: white;
+	width: 9em;
+	height: 2.5em;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 1.8rem;
+	letter-spacing: 1px;
+}
+
+.btn{
+	border-radius: 0px;
+}
+
+header{
+	padding: 20px;
+	background-image: url("../dossierProjet/img/background1.png");
+	background-size: cover;
+}
+
+main{
+	text-align: center;
+	color: white;
+	background-color: #0077b3;
+	background-size: cover;
+}
